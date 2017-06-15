@@ -5,7 +5,7 @@ from django.contrib import admin
 
 from notes.models import Note
 
-class NoteAdmin(admin.ModelAdmin)
+class NoteAdmin(admin.ModelAdmin):
     list_display = (
         'id',
         'title',
